@@ -1,0 +1,10 @@
+{
+  "sites": ["footlocker", "eastbay"],
+  "formats": ["bubble gum"],
+  "task_status": {
+    "idle": "Idle",
+    "bake": "Baking...",
+    "done": "Done! Delaying..."
+  },
+  "api_uri": "http://localhost:3000"
+}

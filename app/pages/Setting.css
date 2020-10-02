@@ -1,0 +1,113 @@
+.container {
+  width: 100%;
+  text-transform: uppercase;
+}
+.sub_board {
+  background: #ffffff;
+  box-shadow: 0px 2px 3px #686868, 0px -2px 3px rgba(100, 100, 100, 0.498039);
+  border-radius: 5px;
+  width: 100%;
+  height: calc(100vh - 200px - 150px - 28px);
+  padding: 0 40px;
+}
+.sub_board .proxy_list {
+  width: 100%;
+  height: calc(100vh - 200px - 150px - 28px - 140px);
+  /* background: #eeeeee; */
+  box-shadow: inset 0px 1px 3px rgba(100, 100, 100, 0.498039);
+  border-radius: 5px;
+  overflow-y: auto;
+  padding: 10px;
+  resize: none;
+}
+.sub_board .proxy_list:focus {
+  outline: 0;
+}
+
+.sub_board:first-child {
+  margin-right: 6px;
+}
+.sub_board:last-child {
+  margin-left: 6px;
+}
+.sub_board .title {
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #262626;
+  text-shadow: 0px 1px 1px #aaaaaa;
+  margin: 25px 0;
+}
+.task_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.task_container p {
+  color: #262626;
+  font-size: 18px;
+  margin: 0;
+  padding-right: 20px;
+}
+.footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  width: 100%;
+}
+.btn_group {
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.btn_group:first-child {
+  left: 20px;
+}
+.btn_group:last-child {
+  right: 20px;
+}
+.message_container {
+  background: #84bd00;
+  box-shadow: 0px 2px 4px rgba(100, 100, 100, 0.498039);
+  border-radius: 0 8px 8px 0;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0;
+  margin-top: -40px;
+  padding: 10px;
+  text-align: center;
+  min-width: 400px;
+}
+.text_container {
+  text-transform: uppercase;
+  color: #262626;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+}
+.text_container:first-child {
+  padding-bottom: 10px;
+}
+.text_container:first-child p:first-child {
+  margin-right: 10px;
+}
+.text_container:first-child p:last-child {
+  margin-left: 10px;
+}
+.text_container:last-child {
+  padding-top: 10px;
+}
+
+.text_container p {
+  margin: 0;
+  padding: 5px;
+}
+.total_cookie {
+  font-weight: bold;
+}

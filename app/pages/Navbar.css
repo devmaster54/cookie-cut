@@ -1,0 +1,17 @@
+.container {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin: 30px 40px;
+}
+.logo_container {
+  width: 100%;
+  margin-right: 30px;
+}
+.logo_container img {
+  width: 100%;
+  max-width: 650px;
+}
+.btn_container {
+  display: flex;
+}
